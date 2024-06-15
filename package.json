@@ -1,0 +1,20 @@
+{
+  "name": "boilerplate-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format": "turbo format",
+    "type-check": "turbo type-check"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^2.0.4"
+  },
+  "packageManager": "pnpm@9.1.0"
+}
