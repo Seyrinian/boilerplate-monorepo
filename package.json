@@ -9,7 +9,7 @@
     "lint": "turbo lint",
     "format": "turbo format",
     "type-check": "turbo type-check",
-    "release": "turbo release --concurency=1"
+    "release": "turbo release --concurrency=1"
   },
   "keywords": [],
   "author": "",
