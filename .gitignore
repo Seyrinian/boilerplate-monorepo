@@ -1,0 +1,12 @@
+# Build
+build
+.output
+.data
+.nuxt
+dist
+
+# Packages
+node_modules
+
+# Turbo
+.turbo
