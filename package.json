@@ -9,13 +9,18 @@
     "lint": "turbo lint",
     "format": "turbo format",
     "type-check": "turbo type-check",
-    "release": "turbo release --concurrency=1"
+    "release": "turbo release --concurrency=1 && release-it"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "turbo": "^2.0.4"
+  },
+  "release-it": {
+    "git": {
+      "requireCleanWorkingDir": false
+    }
   },
   "packageManager": "pnpm@9.1.0"
 }
