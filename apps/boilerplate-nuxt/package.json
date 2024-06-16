@@ -26,18 +26,5 @@
     "prettier": "^3.3.2",
     "typescript": "^5.2.2",
     "vue-tsc": "^1"
-  },
-  "release-it": {
-    "git": false,
-    "plugins": {
-      "@release-it/bumper": {
-        "out": {
-          "file": "package.json",
-          "path": [
-            "devDependencies.@boilerplate-monorepo/tools"
-          ]
-        }
-      }
-    }
   }
 }

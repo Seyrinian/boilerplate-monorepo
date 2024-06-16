@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "prepare": "husky",
     "dev": "turbo dev",
     "build": "turbo build",
     "lint": "turbo lint",
@@ -15,17 +17,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@release-it/bumper": "^6.0.1",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.0.11",
     "turbo": "^2.0.4"
-  },
-  "release-it": {
-    "git": {
-      "requireCleanWorkingDir": false,
-      "release": true
-    },
-    "npm": {
-      "publish": false
-    }
   },
   "packageManager": "pnpm@9.1.0"
 }
