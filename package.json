@@ -15,11 +15,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@release-it/bumper": "^6.0.1",
     "turbo": "^2.0.4"
   },
   "release-it": {
     "git": {
-      "requireCleanWorkingDir": false
+      "requireCleanWorkingDir": false,
+      "release": true
+    },
+    "npm": {
+      "publish": false
     }
   },
   "packageManager": "pnpm@9.1.0"
