@@ -5,4 +5,7 @@ export default [
   {
     rules: {},
   },
+  {
+    ignores: ['.nuxt/**/*', '.output/**/*'],
+  },
 ];

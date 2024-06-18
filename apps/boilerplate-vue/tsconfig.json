@@ -1,4 +1,10 @@
 {
   "extends": ["@boilerplate-monorepo/tools/tsconfig.base.json"],
-  "compilerOptions": {}
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "~/*": ["./*"]
+    }
+  }
 }
