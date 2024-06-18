@@ -16,4 +16,4 @@ node_modules
 
 # Database
 *.db
-**/migrations/**
+**/migrations
