@@ -11,6 +11,6 @@
 </template>
 
 <script setup lang="ts">
-import CounterButton from '../components/CounterButton.component.vue';
-import UserSession from '../components/UserSession.component.vue';
+import CounterButton from '@/components/CounterButton.component.vue';
+import UserSession from '@/components/UserSession.component.vue';
 </script>

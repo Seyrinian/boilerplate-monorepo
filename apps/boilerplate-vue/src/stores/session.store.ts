@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 import { ref, computed } from 'vue';
-import { User } from '../types/user.type';
+import { User } from '@/types/user.type';
 
 export default defineStore('session', () => {
   const user = ref<User | null>(null);

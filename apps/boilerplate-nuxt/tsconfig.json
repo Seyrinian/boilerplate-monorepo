@@ -3,5 +3,6 @@
   "extends": [
     "@boilerplate-monorepo/tools/tsconfig.base.json",
     "./.nuxt/tsconfig.json"
-  ]
+  ],
+  "compilerOptions": {}
 }

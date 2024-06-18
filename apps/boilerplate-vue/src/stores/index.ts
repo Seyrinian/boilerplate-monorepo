@@ -1,3 +1,3 @@
-import useSessionStore from './session.store';
+import useSessionStore from '@/stores/session.store';
 
 export { useSessionStore };

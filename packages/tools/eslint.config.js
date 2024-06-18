@@ -8,4 +8,7 @@ export default tseslint.config(
   {
     rules: {},
   },
+  {
+    ignores: ['node_modules/**/*', 'turbo/**/*', 'dist/**/*'],
+  },
 );
