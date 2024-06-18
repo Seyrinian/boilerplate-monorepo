@@ -9,8 +9,7 @@
     "postinstall": "nuxt prepare",
     "type-check": "vue-tsc --noEmit",
     "lint": "eslint .",
-    "format": "prettier --write .",
-    "release": "release-it --ci"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",

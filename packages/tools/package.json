@@ -7,9 +7,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "scripts": {
-    "release": "release-it --ci"
-  },
   "devDependencies": {
     "@eslint/js": "^9.5.0",
     "@types/eslint__js": "^8.42.3",

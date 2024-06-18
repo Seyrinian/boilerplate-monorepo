@@ -8,9 +8,6 @@
     "dev": { "dependsOn": ["^dev"] },
     "lint": {},
     "format": {},
-    "type-check": {},
-    "release": {
-      "dependsOn": ["^release"]
-    }
+    "type-check": {}
   }
 }

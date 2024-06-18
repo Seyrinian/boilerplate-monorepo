@@ -11,12 +11,15 @@
     "lint": "turbo lint",
     "format": "turbo format",
     "type-check": "turbo type-check",
-    "release": "turbo release --concurrency=1 && release-it"
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.27.5",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "husky": "^9.0.11",
