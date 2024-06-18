@@ -25,5 +25,10 @@
     "husky": "^9.0.11",
     "turbo": "^2.0.4"
   },
+  "release-it": {
+    "git": {
+      "requireCleanWorkingDir": false
+    }
+  },
   "packageManager": "pnpm@9.1.0"
 }
