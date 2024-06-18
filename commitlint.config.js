@@ -21,7 +21,7 @@ export default {
     'scope-enum': [
       2,
       'always',
-      ['root', 'boilerplate-nuxt', 'boilerplate-vue', 'tools', 'release'],
+      ['root', 'boilerplate-nuxt', 'boilerplate-vue', 'tools'],
     ],
     'subject-empty': [2, 'never'],
     'type-empty': [2, 'never'],

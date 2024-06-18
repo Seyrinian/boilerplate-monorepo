@@ -10,25 +10,16 @@
     "build": "turbo build",
     "lint": "turbo lint",
     "format": "turbo format",
-    "type-check": "turbo type-check",
-    "changeset": "changeset",
-    "changeset:version": "changeset version",
-    "changeset:publish": "changeset publish"
+    "type-check": "turbo type-check"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@changesets/cli": "^2.27.5",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "husky": "^9.0.11",
     "turbo": "^2.0.4"
-  },
-  "release-it": {
-    "git": {
-      "requireCleanWorkingDir": false
-    }
   },
   "packageManager": "pnpm@9.1.0"
 }

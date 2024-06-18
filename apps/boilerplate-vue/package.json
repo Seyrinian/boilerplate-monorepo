@@ -28,18 +28,5 @@
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vue-tsc": "^2.0.6"
-  },
-  "release-it": {
-    "git": false,
-    "plugins": {
-      "@release-it/bumper": {
-        "out": {
-          "file": "package.json",
-          "path": [
-            "devDependencies.@boilerplate-monorepo/tools"
-          ]
-        }
-      }
-    }
   }
 }
