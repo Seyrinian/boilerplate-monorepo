@@ -1,0 +1,35 @@
+{
+  "name": "@boilerplate-monorepo/boilerplate-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.jsx",
+  "scripts": {
+    "dev": "ts-node -T src/index.ts",
+    "type-check": "vue-tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "db:migrate": "prisma migrate dev",
+    "db:seed": "prisma db seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@boilerplate-monorepo/tools": "workspace:*",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.5",
+    "eslint": "^9.5.0",
+    "prettier": "^3.3.2",
+    "prisma": "^5.15.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.2.2"
+  },
+  "prisma": {
+    "seed": "ts-node -T prisma/seed.ts"
+  }
+}

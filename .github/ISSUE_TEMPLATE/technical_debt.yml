@@ -1,11 +1,20 @@
 ---
 name: Technical Debt
 description: Suggest an idea to update technical debt
-title: "[Tehnical-Debt]: "
-labels: ["technical debt"]
+title: '[Tehnical-Debt]: '
+labels: ['technical debt']
 assignees:
   - Seyrinian
 body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: What project is concerned by this technical debt?
+      multiple: true
+      options:
+        - boilerplate-nuxt
+        - boilerplate-vue
+        - tools
   - type: textarea
     attributes:
       label: Description

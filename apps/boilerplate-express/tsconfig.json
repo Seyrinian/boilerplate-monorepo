@@ -1,0 +1,6 @@
+{
+  "extends": "@boilerplate-monorepo/tools/tsconfig.base.json",
+  "compilerOptions": {
+    "esModuleInterop": true
+  }
+}

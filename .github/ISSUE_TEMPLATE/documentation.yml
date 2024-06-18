@@ -1,11 +1,20 @@
 ---
 name: Documentation Request
 description: Suggest an idea to add documentations
-title: "[Docs]: "
-labels: ["documentation"]
+title: '[Docs]: '
+labels: ['documentation']
 assignees:
   - Seyrinian
 body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: What project is concerned by this documentation?
+      multiple: true
+      options:
+        - boilerplate-nuxt
+        - boilerplate-vue
+        - tools
   - type: textarea
     attributes:
       label: Description

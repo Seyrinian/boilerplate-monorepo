@@ -1,10 +1,19 @@
 name: Bug Report
 description: File a bug report.
-title: "[Bug]: "
-labels: ["bug"]
+title: '[Bug]: '
+labels: ['bug']
 assignees:
   - Seyrinian
 body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: What project is concerned by this bug?
+      multiple: true
+      options:
+        - boilerplate-nuxt
+        - boilerplate-vue
+        - tools
   - type: markdown
     attributes:
       value: |
@@ -15,7 +24,7 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: 'A bug happened!'
     validations:
       required: true
   - type: dropdown

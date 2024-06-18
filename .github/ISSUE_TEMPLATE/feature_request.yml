@@ -1,11 +1,20 @@
 ---
 name: Feature Request
 description: Suggest an idea to help us improve
-title: "[Feature]: "
-labels: ["feature"]
+title: '[Feature]: '
+labels: ['feature']
 assignees:
   - Seyrinian
 body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: What project is concerned by this feature request?
+      multiple: true
+      options:
+        - boilerplate-nuxt
+        - boilerplate-vue
+        - tools
   - type: textarea
     attributes:
       label: Description
